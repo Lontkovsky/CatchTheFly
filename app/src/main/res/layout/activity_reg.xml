@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.catchthefly.RegActivity"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:text="Please leave only true information about yourself."
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:inputType="text"
+        android:layout_gravity="center" />
+
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center" />
+
+
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/cardNumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="phone"
+        android:layout_gravity="center" />
+
+   <Button
+       android:background="#000"
+       android:textColor="#fff"
+       android:layout_margin="8dp"
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:onClick="register"
+       android:layout_gravity="center"/>
+
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:textColor="#fff"
+        android:text="Payments will be 2 times a month (1 and 15 of the month)"/>
+
+</LinearLayout>
