@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.root.catchthefly.RegActivity"
-    android:background="@drawable/back"
+    android:background="@drawable/wall"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +14,7 @@
         android:padding="12dp"
         android:gravity="center"
         android:textAlignment="center"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="16sp"
         android:text="Please leave only true information about yourself."
         >
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="12dp"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:text="Payments will be 2 times a month (1 and 15 of the month)"/>
 
 </LinearLayout>
