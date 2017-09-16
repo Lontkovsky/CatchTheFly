@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "823075943257",
+    "firebase_url": "https://catchthefly-273b2.firebaseio.com",
+    "project_id": "catchthefly-273b2",
+    "storage_bucket": "catchthefly-273b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823075943257:android:d7fc63f363b7e89d",
+        "android_client_info": {
+          "package_name": "com.example.root.catchthefly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823075943257-dojdi2g60fa25ul8l2ttf9pn3lkkgrnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root.catchthefly",
+            "certificate_hash": "7f7bbfa59eae95b323770cf6917439315fe7f3cf"
+          }
+        },
+        {
+          "client_id": "823075943257-4as3v0jontbao04kucgbeusmi7eaia6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17yx0Q1H4kqxLvk74RrwobujuSBGG_p8"
+        },
+        {
+          "current_key": "AIzaSyAH3V3qYXUgIRkXnAIoR9OuB1RGQQTwhnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823075943257-4as3v0jontbao04kucgbeusmi7eaia6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
